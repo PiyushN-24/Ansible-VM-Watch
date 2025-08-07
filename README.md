@@ -131,7 +131,7 @@ done
 ### SSH Public Key Injection Script (inject_ssh_key.sh)
 ```bash
 #!/bin/bash
-PEM_FILE="DevOps-Shack.pem"
+PEM_FILE="piyush.pem"
 PUB_KEY=$(cat ~/.ssh/id_rsa.pub)
 USER="ubuntu"
 INVENTORY_FILE="inventory/aws_ec2.yaml"
@@ -162,4 +162,3 @@ Please fork the repository, make your changes in a new branch, and submit a pull
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
----
